@@ -1,0 +1,164 @@
+// About__text
+.about {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.about__head-text h1 {
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.about__head-text p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+//About__elements
+.about__elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+//About__text
+.about__text {
+    margin-top: 57px;
+}
+
+//About__img
+.about__img {
+    position: relative;
+    z-index: 100;
+}
+
+//Bg
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+}
+
+//About__block
+.about__block {
+    display: flex;
+    align-items: center;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-left: 81px;
+    padding-right: 59px;
+    transition: all .3s ease;
+}
+
+.about__block:nth-child(2) {
+    background: #F3FBF8;
+}
+
+//About__icon-Img
+.about__icon {
+    margin-right: 40px;
+    z-index: 0;
+}
+
+//About__icon-text
+.about__icon-text h1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+.about__icon-text p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+
+//Arrow
+.arrow {
+    margin-left: 249px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    .otstup__p {
+        display: none;
+    }
+
+    .about {
+        padding-top: 100px;
+    }
+
+    .about__head-text {
+        text-align: center;
+    }
+
+    .about__head-text h1 {
+        font-size: 56px;
+    }
+
+    .about__block {
+        margin-bottom: 50px;
+    }
+
+    .about__elements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__img {
+        order: -1;
+    }
+}
+
+//Nitka 
+.nitka {
+    position: absolute;
+    top: -52px;
+    left: 35%;
+    z-index: -1;
+}
+
+@media (max-width: 1462px) {
+    .nitka {
+        left: 25%;
+    }
+}
+@media (max-width: 1276px) {
+    .nitka {
+        left: 15%;
+    }
+}
+@media (max-width: 1120px) {
+    .nitka {
+        left: 5%;
+    }
+}
+@media (max-width: 1003px) {
+    .nitka {
+        left: -15%;
+    }
+}
+@media (max-width: 829px) {
+    .nitka {
+        display: none;
+    }
+}
